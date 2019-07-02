@@ -1,0 +1,92 @@
+body{
+background-color: #ff9f59;
+margin: 0;
+}
+
+nav{
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover{
+    color: red;
+}
+
+.Banner{
+    height: 400px;
+    background-image: url("fundo.jpg");
+    background-size: cover;
+}
+
+.Banner h1, h4  {
+   text-align: center;
+   margin: 0;
+}
+
+h1{
+    padding-top: 230px;
+    font-size: 40pt;
+    font-family: 'Dancing Script', cursive;
+    
+}
+
+h4{
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16pt;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+    padding-bottom: 15px;
+}
+
+.form div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+}
+
+input{
+    border-radius: 05px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.botão:hover{
+    background-color: orange;
+    color: black;
+}
+
+::placeholder{
+    font-size: 15pt;
+
+}
+
+footer{
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3px;
+
+
+}
